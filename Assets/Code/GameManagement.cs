@@ -19,15 +19,7 @@ public class GameManagement : MonoBehaviour
         // Pobieramy komponent TextMeshProUGUI z panelu levelCompletedPanel
         levelCompletedText = levelCompletedPanel.GetComponentInChildren<TextMeshProUGUI>();
 
-        // Debugowanie - sprawdŸ, czy znaleziono komponent TextMeshProUGUI
-        if (levelCompletedText == null)
-        {
-            Debug.LogError("Nie znaleziono komponentu TextMeshProUGUI w dzieciach levelCompletedPanel!");
-        }
-        else
-        {
-            Debug.Log("Komponent TextMeshProUGUI znaleziony: " + levelCompletedText.name);
-        }
+       
     }
 
     // Metoda do wyœwietlania komunikatu o zakoñczeniu poziomu

@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - TowerPlace
+  - Tower
+  - PlacementArea
   layers:
   - Default
   - TransparentFX
@@ -13,8 +16,8 @@ TagManager:
   - UI
   - Enemy
   - Bullet
-  - 
-  - 
+  - TowerPlace
+  - PlacementArea
   - 
   - 
   - 
@@ -43,4 +46,7 @@ TagManager:
     locked: 0
   - name: Turret
     uniqueID: 3947698093
+    locked: 0
+  - name: Tower
+    uniqueID: 1367493037
     locked: 0

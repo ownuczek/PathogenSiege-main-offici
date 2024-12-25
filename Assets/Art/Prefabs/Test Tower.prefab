@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: -6805562517004790303}
   m_Layer: 0
   m_Name: Test Tower
-  m_TagString: Untagged
+  m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -125,8 +125,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -347269203
-  m_SortingLayer: 1
+  m_SortingLayerID: 1367493037
+  m_SortingLayer: 2
   m_SortingOrder: 5
   m_Sprite: {fileID: 0}
   m_Color: {r: 0.5566038, g: 0.21791562, b: 0.21791562, a: 1}

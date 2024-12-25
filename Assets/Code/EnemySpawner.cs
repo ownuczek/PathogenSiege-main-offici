@@ -45,7 +45,7 @@ public class EnemySpawner : MonoBehaviour
 
         // Obliczanie prêdkoœci wrogów w tej fali
         float enemySpeed = baseEnemySpeed + (currentWave - 1) * 0.5f;
-        Debug.Log($"Prêdkoœæ wrogów w tej fali: {enemySpeed}"); // Debugowanie prêdkoœci
+        
 
         if (timeSinceLastSpawn >= (1f / enemiesPerSecond) && enemiesLeftToSpawn > 0)
         {
