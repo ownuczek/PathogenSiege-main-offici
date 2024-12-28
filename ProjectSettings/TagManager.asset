@@ -6,7 +6,7 @@ TagManager:
   tags:
   - TowerPlace
   - Tower
-  - PlacementArea
+  - BuildPoints
   layers:
   - Default
   - TransparentFX
@@ -17,7 +17,7 @@ TagManager:
   - Enemy
   - Bullet
   - TowerPlace
-  - PlacementArea
+  - BuildPoints
   - 
   - 
   - 

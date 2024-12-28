@@ -196,7 +196,7 @@ GameObject:
   - component: {fileID: 62428470}
   m_Layer: 0
   m_Name: TowerPlaces
-  m_TagString: TowerPlace
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -341,9 +341,10 @@ GameObject:
   - component: {fileID: 429539244}
   - component: {fileID: 429539245}
   - component: {fileID: 429539246}
+  - component: {fileID: 429539247}
   m_Layer: 9
   m_Name: TowerPlace9
-  m_TagString: PlacementArea
+  m_TagString: BuildPoints
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -441,6 +442,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &429539247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429539243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0edfaf240a330348b9be7541afa555d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerPlacementScript: {fileID: 0}
 --- !u!1 &440663601
 GameObject:
   m_ObjectHideFlags: 0
@@ -531,9 +545,10 @@ GameObject:
   - component: {fileID: 533002894}
   - component: {fileID: 533002895}
   - component: {fileID: 533002896}
+  - component: {fileID: 533002897}
   m_Layer: 9
   m_Name: TowerPlace7
-  m_TagString: PlacementArea
+  m_TagString: BuildPoints
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -631,6 +646,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &533002897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533002893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0edfaf240a330348b9be7541afa555d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerPlacementScript: {fileID: 0}
 --- !u!1 &629655304
 GameObject:
   m_ObjectHideFlags: 0
@@ -1046,9 +1074,10 @@ GameObject:
   - component: {fileID: 759782251}
   - component: {fileID: 759782252}
   - component: {fileID: 759782253}
+  - component: {fileID: 759782254}
   m_Layer: 9
   m_Name: TowerPlace10
-  m_TagString: PlacementArea
+  m_TagString: BuildPoints
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1146,6 +1175,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &759782254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759782250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0edfaf240a330348b9be7541afa555d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerPlacementScript: {fileID: 0}
 --- !u!1 &815693774
 GameObject:
   m_ObjectHideFlags: 0
@@ -1157,9 +1199,10 @@ GameObject:
   - component: {fileID: 815693775}
   - component: {fileID: 815693776}
   - component: {fileID: 815693777}
+  - component: {fileID: 815693778}
   m_Layer: 9
   m_Name: TowerPlace5
-  m_TagString: PlacementArea
+  m_TagString: BuildPoints
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1257,6 +1300,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &815693778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815693774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0edfaf240a330348b9be7541afa555d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerPlacementScript: {fileID: 0}
 --- !u!1 &844082945
 GameObject:
   m_ObjectHideFlags: 0
@@ -1396,9 +1452,10 @@ GameObject:
   - component: {fileID: 893654626}
   - component: {fileID: 893654627}
   - component: {fileID: 893654628}
+  - component: {fileID: 893654629}
   m_Layer: 9
   m_Name: TowerPlace2
-  m_TagString: PlacementArea
+  m_TagString: BuildPoints
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1496,6 +1553,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &893654629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893654625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0edfaf240a330348b9be7541afa555d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerPlacementScript: {fileID: 0}
 --- !u!1 &968493501
 GameObject:
   m_ObjectHideFlags: 0
@@ -1749,9 +1819,10 @@ GameObject:
   - component: {fileID: 1183219558}
   - component: {fileID: 1183219559}
   - component: {fileID: 1183219560}
+  - component: {fileID: 1183219561}
   m_Layer: 9
   m_Name: TowerPlace3
-  m_TagString: PlacementArea
+  m_TagString: BuildPoints
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1849,6 +1920,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1183219561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183219557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0edfaf240a330348b9be7541afa555d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerPlacementScript: {fileID: 0}
 --- !u!1 &1203418698
 GameObject:
   m_ObjectHideFlags: 0
@@ -2179,9 +2263,10 @@ GameObject:
   - component: {fileID: 1477627272}
   - component: {fileID: 1477627273}
   - component: {fileID: 1477627274}
+  - component: {fileID: 1477627275}
   m_Layer: 9
   m_Name: TowerPlace8
-  m_TagString: PlacementArea
+  m_TagString: BuildPoints
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2279,6 +2364,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1477627275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477627271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0edfaf240a330348b9be7541afa555d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerPlacementScript: {fileID: 0}
 --- !u!1 &1549236401
 GameObject:
   m_ObjectHideFlags: 0
@@ -2288,6 +2386,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1549236403}
+  - component: {fileID: 1549236408}
   - component: {fileID: 1549236402}
   - component: {fileID: 1549236404}
   - component: {fileID: 1549236405}
@@ -2408,6 +2507,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelCompletedPanel: {fileID: 1240280567}
   blockerPanel: {fileID: 1681048549}
+--- !u!114 &1549236408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549236401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7040d9d5f927d384394e61b1911f66c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerPrefab: {fileID: 6176445045885909896, guid: 69d51907a1f4515439cccd9817be0707, type: 3}
+  BuildPoints:
+    serializedVersion: 2
+    m_Bits: 512
+  towerCost: 100
 --- !u!1 &1561927503
 GameObject:
   m_ObjectHideFlags: 0
@@ -2747,9 +2863,10 @@ GameObject:
   - component: {fileID: 1986490121}
   - component: {fileID: 1986490122}
   - component: {fileID: 1986490123}
+  - component: {fileID: 1986490124}
   m_Layer: 9
   m_Name: TowerPlace1
-  m_TagString: PlacementArea
+  m_TagString: BuildPoints
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2847,6 +2964,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1986490124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986490120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0edfaf240a330348b9be7541afa555d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerPlacementScript: {fileID: 0}
 --- !u!1 &2024890388
 GameObject:
   m_ObjectHideFlags: 0
@@ -2858,9 +2988,10 @@ GameObject:
   - component: {fileID: 2024890389}
   - component: {fileID: 2024890390}
   - component: {fileID: 2024890391}
+  - component: {fileID: 2024890392}
   m_Layer: 9
   m_Name: TowerPlace6
-  m_TagString: PlacementArea
+  m_TagString: BuildPoints
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2958,6 +3089,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2024890392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024890388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0edfaf240a330348b9be7541afa555d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerPlacementScript: {fileID: 0}
 --- !u!1 &2033666155
 GameObject:
   m_ObjectHideFlags: 0
@@ -3153,9 +3297,10 @@ GameObject:
   - component: {fileID: 2125390512}
   - component: {fileID: 2125390513}
   - component: {fileID: 2125390514}
+  - component: {fileID: 2125390515}
   m_Layer: 9
   m_Name: TowerPlace4
-  m_TagString: PlacementArea
+  m_TagString: BuildPoints
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3253,6 +3398,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2125390515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125390511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0edfaf240a330348b9be7541afa555d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerPlacementScript: {fileID: 0}
 --- !u!1 &2136297713
 GameObject:
   m_ObjectHideFlags: 0
@@ -3264,9 +3422,10 @@ GameObject:
   - component: {fileID: 2136297714}
   - component: {fileID: 2136297715}
   - component: {fileID: 2136297716}
+  - component: {fileID: 2136297717}
   m_Layer: 9
   m_Name: TowerPlace
-  m_TagString: PlacementArea
+  m_TagString: BuildPoints
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3364,6 +3523,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2136297717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136297713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0edfaf240a330348b9be7541afa555d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerPlacementScript: {fileID: 1549236408}
 --- !u!1001 &5630676417992655941
 PrefabInstance:
   m_ObjectHideFlags: 0
