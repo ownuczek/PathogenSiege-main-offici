@@ -3,16 +3,16 @@ using UnityEngine;
 public class BuildPoint : MonoBehaviour
 {
     [Header("References")]
-    [SerializeField] private TowerPlacement towerPlacementScript; // Odwo³anie do skryptu TowerPlacement
+    [SerializeField] private TowerPlacement towerPlacementScript; 
 
     private void OnMouseDown()
     {
-        // Debugging info
+        
         Debug.Log("BuildPoint clicked");
 
         if (towerPlacementScript != null)
         {
-            towerPlacementScript.StartPlacingTower(); // Rozpoczynamy proces stawiania wie¿y
+            towerPlacementScript.StartPlacingTower(); 
         }
         else
         {
@@ -30,7 +30,7 @@ public class BuildPoint : MonoBehaviour
 
             if (hit.collider != null && hit.collider.gameObject == this.gameObject)
             {
-                towerPlacementScript.PlaceTower(hit); // Ustawiamy wie¿ê
+                towerPlacementScript.PlaceTower(hit);
             }
         }
     }

@@ -13,8 +13,8 @@ public class Turret : MonoBehaviour
     [Header("Attributes")]
     [SerializeField] private float targetingRange = 5f;
     [SerializeField] private float rotationSpeed = 5f;
-    [SerializeField] private float bps = 1f; // Bullets per second
-    [SerializeField] private float maxTargetDistance = 10f; // Maksymalny zasiêg na którym wie¿a mo¿e znaleŸæ cel
+    [SerializeField] private float bps = 1f; 
+    [SerializeField] private float maxTargetDistance = 10f; 
 
     private Transform target;
     private float timeUntilFire;
@@ -31,7 +31,7 @@ public class Turret : MonoBehaviour
 
         if (!CheckTargetIsInRange())
         {
-            target = null; // Jeœli cel jest poza zasiêgiem, ustaw go na null
+            target = null; 
         }
         else
         {
@@ -54,7 +54,7 @@ public class Turret : MonoBehaviour
 
     private void FindTarget()
     {
-        // U¿ywamy CircleCastAll, aby znaleŸæ wszystkie obiekty w zasiêgu
+        
         RaycastHit2D[] hits = Physics2D.CircleCastAll(transform.position, targetingRange, Vector2.zero, 0f, enemyMask);
 
         if (hits.Length > 0)
@@ -62,7 +62,7 @@ public class Turret : MonoBehaviour
             Transform closestTarget = null;
             float closestDistance = float.MaxValue;
 
-            // Sortujemy wrogów po odleg³oœci
+           
             foreach (var hit in hits)
             {
                 float distance = Vector2.Distance(transform.position, hit.transform.position);
@@ -73,7 +73,7 @@ public class Turret : MonoBehaviour
                 }
             }
 
-            // Jeœli znaleziono cel, przypisujemy go
+           
             if (closestTarget != null)
             {
                 target = closestTarget;
@@ -83,13 +83,13 @@ public class Turret : MonoBehaviour
 
     private bool CheckTargetIsInRange()
     {
-        // U¿ywamy kwadratu odleg³oœci do porównania
+       
         return (target.position - transform.position).sqrMagnitude < targetingRange * targetingRange;
     }
 
     private void RotateTowardsTarget()
     {
-        // Obliczamy k¹t miêdzy wie¿¹ a celem
+       
         float angle = Mathf.Atan2(target.position.y - transform.position.y, target.position.x - transform.position.x) * Mathf.Rad2Deg - 90f;
 
         Quaternion targetRotation = Quaternion.Euler(new Vector3(0f, 0f, angle));

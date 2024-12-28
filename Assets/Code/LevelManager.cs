@@ -8,25 +8,25 @@ public class LevelManager : MonoBehaviour
     public Transform[] path;
 
     public int currency;
-    public int currentLevel = 1; // Dodanie aktualnego poziomu gry
+    public int currentLevel = 1;
 
     private void Awake()
     {
         main = this;
-        // Nie niszcz obiektu miêdzy scenami
+       
         DontDestroyOnLoad(gameObject);
     }
 
     private void Start()
     {
-        currency = 100; // Inicjalizacja waluty
-        // Wyœwietlanie poziomu na pocz¹tku
+        currency = 100; 
+       
         DisplayLevelOnStart();
     }
 
     private void DisplayLevelOnStart()
     {
-        // ZnajdŸ obiekt LevelDisplay i zaktualizuj wyœwietlany poziom
+        
         LevelDisplay levelDisplay = FindObjectOfType<LevelDisplay>();
         if (levelDisplay != null)
         {
@@ -34,25 +34,25 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    // Funkcja do przejœcia do nastêpnego poziomu
+   
     public void NextLevel()
     {
-        currentLevel++; // Zwiêksz poziom
-        currency = 100; // Resetowanie waluty lub zmiana w zale¿noœci od wymagañ
+        currentLevel++; 
+        currency = 100;
 
         Debug.Log("Przechodzimy do poziomu " + currentLevel);
 
-        // Wyœwietlanie nowego poziomu
+        
         DisplayLevelOnStart();
     }
 
-    // Funkcja do zwiêkszenia waluty
+    
     public void IncreaseCurrency(int amount)
     {
         currency += amount;
     }
 
-    // Funkcja do wydania waluty
+   
     public bool SpendCurrency(int amount)
     {
         if (amount <= currency)
