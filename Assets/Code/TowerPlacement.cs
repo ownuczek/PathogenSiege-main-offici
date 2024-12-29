@@ -67,21 +67,26 @@ public class TowerPlacement : MonoBehaviour
         }
     }
 
-    
+
     public void PlaceTower(RaycastHit2D hit)
     {
-        
         if (LevelManager.main.SpendCurrency(towerCost))
         {
-            Instantiate(towerPrefab, hit.point, Quaternion.identity); 
-            Debug.Log("Wie¿a postawiona na pozycji: " + hit.point);
+            // Pobranie pozycji œrodka BuildPoint
+            Vector3 position = hit.collider.transform.position;
+
+            // Tworzenie wie¿yczki w tej pozycji
+            Instantiate(towerPrefab, position, Quaternion.identity);
+
+            Debug.Log("Wie¿a postawiona na pozycji: " + position);
         }
         else
         {
             Debug.Log("Nie masz wystarczaj¹cej iloœci waluty!");
         }
 
-        
-        currentTower = null;
+        currentTower = null; // Resetowanie aktualnie budowanej wie¿yczki
     }
+
+
 }

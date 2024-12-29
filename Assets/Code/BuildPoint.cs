@@ -34,4 +34,10 @@ public class BuildPoint : MonoBehaviour
             }
         }
     }
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireCube(transform.position, new Vector3(1, 1, 0)); // Rozmiar kwadratu siatki
+    }
+
 }
