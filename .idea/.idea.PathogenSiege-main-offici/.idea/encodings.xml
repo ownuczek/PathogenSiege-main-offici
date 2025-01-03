@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Assets/Code/BuildPoint.cs" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/Assets/Code/EnemyMovement.cs" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/Assets/Code/EnemySpawner.cs" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/Assets/Code/GameManagement.cs" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/Assets/Code/GameOverManager.cs" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/Assets/Code/LevelManager.cs" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/Assets/Code/MainMenu.cs" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/Assets/Code/Nexus.cs" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/Assets/Code/TowerPlacement.cs" charset="UTF-16" />
+  </component>
+</project>
